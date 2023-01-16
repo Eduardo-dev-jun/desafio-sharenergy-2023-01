@@ -1,0 +1,25 @@
+.pagination {
+  display: flex;
+  list-style: none;
+
+  width: 18.5rem;
+
+  margin-inline: auto;
+  padding: 0;
+
+}
+
+.pagination li + li {
+  margin-left: 1rem;
+  
+}
+
+.activePagination {
+  background: none;
+  font-weight: bold;
+  border: none;
+}
+
+.activePagination:focus {
+  outline: none;
+}

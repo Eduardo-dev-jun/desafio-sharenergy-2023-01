@@ -1,0 +1,37 @@
+.divNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+
+  padding-inline: 4rem;
+}
+
+.buttonHome{
+  width: 10rem;
+  height: 3rem;
+
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: 'Quicksand', sans-serif;
+
+  border: none;
+  border-radius: 5px;
+  background-color: var(--button);
+
+  transition: all .2s;
+
+  cursor: pointer;
+}
+
+.buttonHome:hover{
+  background-color: #0000FF;
+}
+
+@media only screen and (max-width: 600px) {
+  .divNav{
+    padding-inline: 1rem;
+  }
+}

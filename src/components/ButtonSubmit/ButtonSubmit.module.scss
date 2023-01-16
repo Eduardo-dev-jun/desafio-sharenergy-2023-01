@@ -1,0 +1,29 @@
+.buttonSubmit{
+  width: 60%;
+  height: 3rem;
+
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: 'Quicksand', sans-serif;
+
+  margin-inline: auto;
+
+  border: none;
+  border-radius: 5px;
+  background-color: var(--button);
+
+  transition: all .2s;
+
+  cursor: pointer;
+}
+
+.buttonSubmit:hover{
+  background-color: #0000FF;
+}
+
+.spanError{
+  color: red;
+  margin-inline: auto;
+  font-size: 1.2rem;
+}

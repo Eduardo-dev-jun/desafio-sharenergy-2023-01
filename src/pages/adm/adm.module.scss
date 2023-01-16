@@ -1,0 +1,77 @@
+.divAdm{
+  width: 30rem;
+
+  border-radius: 15px;
+
+  background-color: white;
+
+  margin-top: 15%;
+  margin-inline: auto;
+
+  padding-block: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 3rem;
+}
+
+.divLogout{
+  width: 100%;
+}
+
+.buttonLogout{
+  margin-left: 80%;
+  margin-top: 1rem;
+
+  height: 2.5rem;
+
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: 'Quicksand', sans-serif;
+
+  border: none;
+  border-radius: 5px;
+  background-color: var(--button);
+
+  transition: all .2s;
+
+  cursor: pointer;
+}
+
+.buttonsAdm{
+  width: 60%;
+  height: 3rem;
+
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: 'Quicksand', sans-serif;
+
+  margin-inline: auto;
+
+  border: none;
+  border-radius: 5px;
+  background-color: var(--button);
+
+  transition: all .2s;
+
+  cursor: pointer;
+}
+
+.buttonsAdm:hover{
+  background-color: #0000FF;
+}
+
+@media only screen and (max-width: 600px) {
+  .divAdm{
+    width: 19rem;
+  }
+
+  .buttonLogout{
+    margin-left: 70%;
+  }
+}

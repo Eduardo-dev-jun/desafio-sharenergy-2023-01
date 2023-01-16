@@ -1,0 +1,52 @@
+.divWrapper{
+  width: 70rem;
+  height: 50rem;
+
+  background-color: white;
+
+  margin-inline: auto;
+
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+
+  gap: 2rem;
+
+  padding-block: 2rem;
+
+  margin-top: 5%;
+}
+
+.inputCode{
+  width: 20%;
+  height: 3rem;
+
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 550;
+
+  margin-inline: auto;
+
+  border: none;
+  border-bottom: 2px solid gray;
+  
+
+  outline: none;
+
+  padding-left: .5rem;
+}
+
+.inputCode:hover{
+  border-bottom: 2px solid var(--inputBorder);
+}
+
+@media only screen and (max-width: 600px) {
+  .divWrapper{
+    width: 19rem;
+    height: 28rem;
+  }
+
+  .img{
+    width: 18rem;
+  }
+}

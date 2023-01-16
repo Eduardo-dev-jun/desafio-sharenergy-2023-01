@@ -1,0 +1,50 @@
+.divWrapper{
+
+  display: flex;
+
+  background-color: white;
+
+  padding-block: 5rem;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 5rem;
+
+  margin-top: 5%;
+}
+
+.RefreshBtn{
+  width: 10rem;
+  height: 3rem;
+
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: 'Quicksand', sans-serif;
+
+  margin-inline: auto;
+
+  border: none;
+  border-radius: 5px;
+  background-color: var(--button);
+
+  transition: all .2s;
+
+  cursor: pointer;
+}
+
+.RefreshBtn:hover{
+  background-color: #0000FF;
+}
+
+.img{
+  width: 30rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .img{
+    width: 18rem;
+  }
+}

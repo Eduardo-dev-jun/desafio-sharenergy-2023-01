@@ -1,0 +1,27 @@
+.user, .password{
+  width: 60%;
+  height: 3rem;
+
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 550;
+
+  margin-inline: auto;
+
+  border: none;
+  border-bottom: 2px solid gray;
+  
+
+  outline: none;
+
+  padding-left: .5rem;
+
+}
+
+.user:focus, .password:focus{
+  border-bottom: 2px solid var(--inputBorder);
+}
+
+.divCheckBox{
+  width: 10rem;
+  margin-inline: auto;
+}

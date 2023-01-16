@@ -1,0 +1,23 @@
+.cardUser{
+  background-color: white;
+
+  width: 25rem;
+
+  margin-inline: auto;
+  margin-top: 5%;
+
+  padding-block: 2%;
+
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardUser{
+    width: 19rem;
+    font-size: .8rem;
+  }
+}
